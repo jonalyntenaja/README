@@ -1,0 +1,279 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+@keyframes cloudnight{
+    0%{ opacity: 0;
+        transform: translateX(100vw);
+        
+    }
+    100%{opacity: 1;
+        transform: translateX(0vw);
+
+    }
+}
+@font-face{
+    src: url(../font/Sacramento-Regular.ttf);
+    font-family: Sacramento;
+}
+@font-face{
+    src: url(../font/Merriweather-Regular.ttf);
+    font-family: Merriweather;
+}
+@font-face{
+    src: url(../font/Montserrat-Regular.ttf);
+    font-family: Montserrat;
+}
+
+.header{
+    background: linear-gradient(to bottom, rgb(3, 44, 49), rgb(64, 126, 126),rgb(3, 44, 49)),;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    text-align: center;
+}
+
+.cloud1{
+    position: absolute;
+    right: 300px;
+    top: 60px;
+    padding-top: 15rem;
+    animation: cloudnight 5s linear;
+   
+}
+
+.cloud2{
+    position: absolute;
+    left: 300px;
+    top: 60px;
+    padding-right: 15rem;
+    animation: cloudnight 5s linear;
+    
+}
+.name{
+    font-family: "Sacramento";
+    font-size: 70px;
+    color:white;
+
+}
+.stat{
+    color: rgb(208, 247, 243);
+    font-weight: bolder;
+    text-align: center;
+    font-size: 61.5px;
+    font-family: serif;
+}
+
+.section{
+    background: linear-gradient(to left, teal,rgba(14, 149, 212, 0.568), teal);
+    text-align: center;
+    padding: 30px;
+}
+
+#img-me{
+    border-radius: 150%;
+    height: 250px;
+    width: 250px;
+    padding: 20px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    
+}
+.info{
+    font-family: "Montserrat";
+    font-size: 28px;
+    color: black;
+    text-align: center;
+    margin-top: 20px;
+   
+}
+.detail{
+    font-family: "Montserrat";
+    font-size: 50px;
+    color: black;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.odet{
+    font-family: "Montserrat";
+    font-size: 30px;
+    color: black;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.skills{
+    font-family: "Sacramento";
+    font-size: 90px;
+    color: rgb(3, 44, 49);
+    text-align: center;
+    padding: 150px;
+}
+
+.other{
+    padding-bottom: 8rem;
+}
+
+.browser{
+     width: 15rem;
+     float: left;
+     margin-right: 10px;
+     margin-bottom: 5px;
+     margin-left: 15rem;
+
+}
+.webdev{
+    font-family: "Sacramento";
+    font-size: 40px;
+    color: rgb(3, 44, 49);
+    padding-top: 1rem;
+    padding: 30px;
+    
+}
+.webdev-info{
+    font-family: "Montserrat";
+    font-size: 20px;
+    color:black;
+    padding-top: 1rem;
+    text-align: justify;
+    margin-right: 15rem;
+}
+.planet{
+    width: 25rem;
+    float: right;
+    margin-right: 20px;
+    margin-bottom: 5px;
+    margin-right: 15rem;
+}
+.interest{
+    font-family: "Sacramento";
+    font-size: 40px;
+    color:rgb(3, 44, 49);
+    padding-top: 1rem;
+    margin-left: 15rem;
+}
+.galaxy{
+    font-family: "Montserrat";
+    font-size: 20px;
+    color:black;
+    padding-top: 1rem;
+    margin-left: 15rem;
+    
+}
+.other2{
+    padding-bottom: 3rem;
+}
+
+.get{
+    font-family: "Sacramento";
+    font-size: 80px;
+    color:rgb(3, 44, 49);
+    padding-bottom: 1rem;
+    padding-top: 8rem;
+    text-align: center;
+}
+
+.let{
+    font-family: "Montserrat";
+    font-size: 30px;
+    color: rgb(15, 6, 39);
+    padding-top: 3rem;
+    padding-bottom: 1rem;
+    text-align: center;
+}
+
+.love-prog{
+    font-family: "Montserrat";
+    font-size: 20px;
+    color: black;
+    text-align: center;
+    padding-left: 45rem;
+}
+
+.about{
+    text-align: center;
+}
+
+.contact{
+    background-color: teal;
+    border-radius: 10px;
+    font-family: Montserrat;
+    font-size: 25px;
+    font-weight: bolder;
+    margin: 30px;
+    padding: 10px;
+}
+
+.contact:hover{
+    text-decoration: none;
+    font-family: Montserrat;
+    color: white;
+    font-weight: bolder;
+}
+
+.footer{
+    background: linear-gradient(to right,teal,rgba(14, 149, 212, 0.568), teal);
+    text-align: center;
+    padding: 30px;
+}
+.namelast{
+    color:black;
+    text-align: center;
+    padding: 30px;
+}
+
+.link{
+    font-size: 20px;
+    font-weight: Montserrat;
+    padding: 30px;
+    padding-bottom: 20px;
+    padding-top: 30px;
+    text-indent: 25px;
+
+}
+.instagram{
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: Montserrat;
+    padding: 30px;
+    color: black;
+}
+.facebook{
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: montserrat;
+    padding: 30px;
+    color: black;
+}
+.twitter{
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: Montserrat;
+    padding: 30px;
+    color: black;
+}
+.facebook:hover{
+    text-decoration: none;
+    font-family: Montserrat;
+    color: white;
+    font-weight: bolder;
+
+}
+.instagram:hover{
+    text-decoration: none;
+    font-family: mont;
+    color: white;
+    font-weight: bolder;
+}
+.twitter:hover{
+    text-decoration: none;
+    font-family: mont;
+    color: white;
+    font-weight: bolder;
+}
+
+.namelast {
+    text-align: center;
+    font-size: 23.5px;
+}
